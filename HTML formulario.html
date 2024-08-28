@@ -1,0 +1,54 @@
+HTML 
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Passo a Passo: Criando um Formulário com HTML e CSS </title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header class="topo">
+        <h1>Formulário</h1>
+    </header>
+
+    <main>
+        <form class="formulário" action="">
+            <div class="field">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="José L. Fonseca" minlength="20" required>
+            </div>
+            <div class="field">
+                <label for="sexo"></label>
+                <div>
+                    <input id="sexo_M" name="sexo" type="radio" value="M"> <label for="sexo_M">Masculino</label>
+                    <input id="sexo_F" name="sexo" type="radio" value="F">                   <label for="sexo_F">Feminino</label>
+                </div>
+            </div>
+            <div class="field">
+                <label for="estado">Estado</label>
+                    <select id="estado" name="estado">
+                        <option value="ac">Acre</option>
+                        <option value="am">Amazonas</option>
+                        <option value="pa">Pará</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="ro">Rondônia</option>
+                    </select>
+            </div>
+            <div class="field">
+                <label for="atendimento-especial">Descreva o atendimento especial:<br></label>
+                <textarea name="atendimento-especial" id="atendimento-especial" rows="5"></textarea>
+            </div>
+            <div class="field">
+                <input type="checkbox" name="termos" id="termos"> <span>Estou de acordo com os termos de serviço</span>
+            </div>
+            <div class="field">
+                <input class="button" type="submit" value="Inscrição">
+            </div>
+            
+        </form>
+    </main>
+
+</body>
+</html>

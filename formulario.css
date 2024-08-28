@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    align-items: center;
+    margin: 10px;
+}
+.topo {
+    padding: 15px;
+    background-color:#274156;
+}
+.topo h1{
+    color: #FBfcff;
+    text-align: center;
+}
+
+.formulario{
+    margin: 10px 10px;
+}
+.formulario input[type=text], .formulario textarea, .formulario select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #274156;
+    border-radius: 5px;
+    outline: none;
+}
+.formulario input[type=radio] {
+    margin-right: 5px;
+}
+
+.button {
+    width: 100%;
+    background-color: #274156;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    color: #FBfcff;
+    font-size: 14px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
